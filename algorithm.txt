@@ -1,0 +1,15 @@
+**Algorithm: Medication Dosage Reminder and Schedule Checker**
+
+1. Start the program.
+2. Read the number of medicines.
+3. Validate that the number is between 1 and 10.
+4. Use arrays to store each medicine name and its scheduled hour and minute.
+5. Validate every scheduled time.
+6. Read and validate the current time.
+7. Convert the current time and each scheduled time into minutes after midnight.
+8. Compare each medicine's scheduled time with the current time.
+9. If both times are equal, display "DUE NOW".
+10. If the scheduled time is later, display "UPCOMING" and the minutes remaining.
+11. If the scheduled time has passed, display "SCHEDULED TIME PASSED" and the elapsed minutes.
+12. Repeat for all medicines.
+13. Display completion message and stop.
